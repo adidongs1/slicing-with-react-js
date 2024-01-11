@@ -5,7 +5,14 @@ import Hero from "../components/Hero";
 
 import Layout from "./Layout";
 
+
 import panahKanan from "../assets/arrowright.svg";
+import varta from "../assets/varta.svg";
+import lenovo from "../assets/lenovo.svg";
+import bbs from "../assets/bbs.svg";
+import weller from "../assets/weller.svg";
+import british_airways from "../assets/british_airways.svg";
+
 
 
 
@@ -18,21 +25,21 @@ function Partners() {
                 <div className="container mx-auto sm:px-4 py-5 mb-20">
                     <div className="flex">
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
-                            <img className="w-40" src="./src/assets/varta.svg" alt="varta" />
+                            <img className="w-40" src={varta} alt="varta" />
                         </div>
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
-                            <img className="w-40" src="./src/assets/lenovo.svg" alt="lenovo" />
+                            <img className="w-40" src={lenovo} alt="lenovo" />
                         </div>
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
-                            <img className="w-40" src="./src/assets/bbs.svg" alt="bbs.svg" />
+                            <img className="w-40" src={bbs} alt="bbs" />
                         </div>
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
-                            <img className="w-40" src="./src/assets/weller.svg" alt="weller" />
+                            <img className="w-40" src={weller} alt="weller" />
                         </div>
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
                             <img
                                 className="w-40"
-                                src="./src/assets/british_airways.svg"
+                                src={british_airways}
                                 alt="british_airways"
                             />
                         </div>
