@@ -12,6 +12,8 @@ import lenovo from "../assets/lenovo.svg";
 import bbs from "../assets/bbs.svg";
 import weller from "../assets/weller.svg";
 import british_airways from "../assets/british_airways.svg";
+import Lufthansa from "../assets/lufthansa.svg";
+
 
 
 
@@ -46,7 +48,7 @@ function Partners() {
                         <div className="md:w-1/5 pr-4 pl-4 w-1/3 mb-3 md:mb-0">
                             <img
                                 className="w-40"
-                                src="./src/assets/lufthansa.svg"
+                                src={Lufthansa}
                                 alt="lufthansa"
                             />
                         </div>
