@@ -5,7 +5,7 @@ function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen">
             {/* Navbar */}
-            <Navbar logo={'./src/assets/logo.svg'} />
+            <Navbar />
 
             {/* main content */}
             <main className="mt-40">
