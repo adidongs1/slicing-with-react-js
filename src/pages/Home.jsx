@@ -1,35 +1,14 @@
 import CardService from "../components/CardService";
 import SellingPointsContent from "../components/SellingPointsContent";
 import CardTestimonials from "../components/CardTestimonials";
+import Hero from "../components/Hero";
 
 import Layout from "./Layout";
 
 import panahKanan from "../assets/arrowright.svg";
 
 
-function Hero() {
-    return (
-        <>
-            <div className="hero min-h-80">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src="./src/assets/img/hero-illustration.png" className="max-h-lg" />
-                    <div className="min-w-[37.5rem]">
-                        <h1 className="text-6xl font-semibold pr-12">
-                            Landing page for <br />
-                            your online service
-                        </h1>
-                        <p className="py-6 text-lg pr-12">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae.</p>
-                        <button className="btn btn-success text-base text-white ">
-                            Learn More
-                            <img src={panahKanan} alt="" />
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </>
 
-    )
-};
 
 function Partners() {
     return (
@@ -216,7 +195,7 @@ function FreeTrials() {
     return (
         <>
             <div className="container">
-                <div className="grid my-8 mx-8 h-[26rem] px-1 py-28 card bg-success rounded-lg place-items-center gap-12">
+                <div className=" my-8 mx-8 h-[26rem] px-1 py-28 card bg-success rounded-lg place-items-center gap-12">
                     <div className="flex flex-col items-center justify-center mx-96 text-white">
                         <h3 className="font-semibold text-5xl">Start your free trial</h3>
                         <p className="text-center w-[27rem] mt-2">
@@ -241,7 +220,16 @@ function Home() {
         <Layout>
 
             <section className="container">
-                <Hero />
+                <Hero >
+                    <h1 className="text-6xl font-semibold pr-12">
+                        Landing page for your online service
+                    </h1>
+                    <p className="py-6 text-lg pr-12">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae.</p>
+                    <button className="btn btn-success text-base text-white ">
+                        Learn More
+                        <img src={panahKanan} alt="" />
+                    </button>
+                </Hero>
                 <Partners />
                 <SellingPoints />
 
