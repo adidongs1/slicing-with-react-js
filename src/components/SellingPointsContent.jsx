@@ -1,3 +1,5 @@
+import panahKanan from '../assets/arrowright.svg';
+
 function SellingPointsContent({ imageSrc, title, reverse, children }) {
     return (
         <>
@@ -20,7 +22,7 @@ function SellingPointsContent({ imageSrc, title, reverse, children }) {
                         className="py-3 px-6 bg-success rounded-btn font-semibold text-base text-white flex items-center my-auto"
                     >
                         Get Started
-                        <img src="./src/assets/arrowright.svg" alt="" />
+                        <img src={panahKanan} alt="" />
                     </button>
                 </div>
 
