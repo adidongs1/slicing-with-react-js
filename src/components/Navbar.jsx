@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import logo from "../assets/logo.svg";
+import Logo from "../assets/logo.svg";
 
 function Navbar() {
 
@@ -13,7 +13,7 @@ function Navbar() {
                         <div className="container h-full flex justify-between items-center">
                             {/* logo */}
                             <NavLink to="/" className="logo">
-                                <img src={logo} alt="logo" />
+                                <img src={Logo} alt="logo" />
                             </NavLink>
                             {/* Menu */}
                             <div className="hidden sm:flex items-center sm:gap-3 md:gap-5 text-base font-medium">
