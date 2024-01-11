@@ -14,6 +14,8 @@ import weller from "../assets/weller.svg";
 import british_airways from "../assets/british_airways.svg";
 import Lufthansa from "../assets/lufthansa.svg";
 
+import BlockPics from "../assets/block-pic.svg";
+
 
 
 
@@ -70,7 +72,7 @@ function SellingPoints() {
                 <div className="container mx-auto sm:px-4 py-5">
 
 
-                    <SellingPointsContent imageSrc="./src/assets/block-pic.svg" title="Incredible">
+                    <SellingPointsContent imageSrc={BlockPics} title="Incredible">
                         Consequatur quidem deserunt qui fugit cumque ut esse
                         est dignissimos. Itaque quia et veritatis. Qui voluptatem
                         dolor quia exercitationem sed similique. Incidunt quae
@@ -78,14 +80,14 @@ function SellingPoints() {
                         tempora ut alias.
                     </SellingPointsContent>
 
-                    <SellingPointsContent imageSrc="./src/assets/block-pic.svg" title="Fantastic" reverse="flex-row-reverse">
+                    <SellingPointsContent imageSrc={BlockPics} title="Fantastic" reverse="flex-row-reverse">
                         Itaque cupiditate soluta necessitatibus. Quis ut veritatis
                         sed exercitationem autem est. Pariatur dolorum officiis
                         fuga officia labore libero. Magni tenetur delectus. Et
                         consequatur accusantium quisquam reiciendis aut.
                     </SellingPointsContent>
 
-                    <SellingPointsContent imageSrc="./src/assets/block-pic.svg" title="Intelligent">
+                    <SellingPointsContent imageSrc={BlockPics} title="Intelligent">
                         Neque aperiam labore reiciendis fugit error mollitia.
                         Repellat non voluptatem expedita quos quia. Quae
                         architecto quia perferendis dicta facilis. Impedit aut sit.
