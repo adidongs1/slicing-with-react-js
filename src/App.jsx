@@ -2,7 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //pages
 import Home from "./pages/Home"
-import Features from './pages/Features'
+import Prices from "./pages/Prices";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
 
 
 export default function App() {
@@ -10,7 +12,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Features" element={<Features />} />
+        <Route path="/prices" element={<Prices />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contacts />} />
       </Routes>
     </Router>
   )
