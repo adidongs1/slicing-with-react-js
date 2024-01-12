@@ -1,4 +1,4 @@
-import CheckIcon from '../assets/check-circle-1.svg'
+import CheckIcon from '../assets/icon/check-circle-1.svg'
 
 function BenefitPrices({ title }) {
     return (
