@@ -1,4 +1,4 @@
-import iconFlame from '../assets/flame.svg';
+import iconFlame from '../assets/icon/flame.svg';
 
 function CardService({ cardTitle, children }) {
     return (
