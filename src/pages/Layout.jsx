@@ -4,16 +4,13 @@ import Navbar from "../components/Navbar";
 function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen">
-            {/* Navbar */}
+
             <Navbar />
 
-            {/* main content */}
             <main className="mt-40">
                 {children}
             </main>
 
-
-            {/* Footer */}
             <Footer />
         </div>
     )
