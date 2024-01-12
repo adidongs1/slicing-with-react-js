@@ -7,7 +7,7 @@ import Hero from "../components/Hero";
 
 import Layout from "./Layout";
 
-
+import imgProfile from "../assets/img/profileAvatar.jpg";
 import panahKanan from "../assets/icon/arrowright.svg";
 import varta from "../assets/icon/varta.svg";
 import lenovo from "../assets/icon/lenovo.svg";
@@ -31,8 +31,8 @@ function Partners() {
         <>
             {/* Section Partner */}
             <section className="sm:mt-28 mt-20">
-                <div className="container mx-auto sm:px-4 mb-20">
-                    <div className="grid grid-cols-3 gap-4 md:flex md:flex-wrap md:gap-8 md:justify-center">
+                <div className="container mx-auto sm:px-4 mb-20 ">
+                    <div className="grid grid-cols-3 xl:grid-cols-6 gap-5 justify-center items-center">
                         <img src={varta} alt="varta" className="w-40" />
                         <img src={lenovo} alt="lenovo" className="w-40" />
                         <img src={bbs} alt="bbs" className="w-40" />
@@ -101,7 +101,7 @@ function Service() {
                     </p>
                 </div>
 
-                <div className="flex flex-wrap sm:flex-nowrap gap-10 p-14 justify-center">
+                <div className="flex flex-wrap xl:flex-nowrap gap-10 p-14 justify-center">
                     <CardService cardTitle="Incredible">
                         Adipisci tempora pariatur modi
                         recusandae. Omnis neque
@@ -152,14 +152,15 @@ function Testimonials() {
                 </div>
 
 
-                <div className="flex flex-wrap  gap-10 p-16 justify-center sm:justify-start">
+                <div className="grid xl:grid-cols-3 gap-10 p-14 justify-center">
                     {
                         DataTestimonials.testimonials.map((item) => {
+
                             return (
                                 <CardTestimonials
                                     name={item.name}
                                     position={item.position}
-                                    imgProfile={item.image}
+                                    imgProfile={imgProfile}
                                     key={item.id}
                                 >
 
@@ -190,7 +191,7 @@ function FreeTrials() {
 
                     <div className="flex flex-col items-center justify-center mx-auto">
                         <div className="join">
-                            <input className="input input-bordered join-item sm:w-72" placeholder="Your email address" />
+                            <input className="input input-bordered join-item md:w-72 w-36" placeholder="Your email address" />
                             <button className="btn join-item bg-[#047857] border-none text-white">Get Started</button>
                         </div>
                     </div>
