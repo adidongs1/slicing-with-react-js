@@ -16,9 +16,9 @@ function Navbar() {
                     </div>
                     {/* desktop */}
                     <div className="hidden sm:flex items-center sm:gap-3 md:gap-5 text-base font-medium">
-                        <NavLink to="/prices">Prices</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/contact">Contacts</NavLink>
+                        <NavLink to="/Prices">Prices</NavLink>
+                        <NavLink to="/About">About</NavLink>
+                        <NavLink to="/Contact">Contacts</NavLink>
                         <NavLink
                             to="/"
                             className="border-2 border-transparent py-[10px] px-5 bg-success rounded-lg text-white font-semibold hover:bg-transparent hover:border-2 hover:border-success hover:text-success"
