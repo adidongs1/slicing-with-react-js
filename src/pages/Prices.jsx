@@ -1,4 +1,3 @@
-import React from 'react'
 import Layout from './Layout'
 
 import CardPrices from '../components/CardPrices'
@@ -11,7 +10,7 @@ function Prices() {
                 <h1 className='text-6xl text-center font-semibold'>Lets Start Together</h1>
                 <section className='container my-20'>
 
-                    <div className="flex justify-center gap-9">
+                    <div className="grid xl:grid-cols-3 justify-center gap-9">
 
                         <CardPrices price="19" title="Stater" desc="Unleash the power of automation.">
                             <BenefitPrices title="Multi-step Zap" />
