@@ -5,28 +5,28 @@
             "name": "Chandra Niko Pasaribu",
             "position": "Software Engineer",
             "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nunc nec nisl aliquam ultrices. Nullam euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc.",
-            "image": "/src/assets/img/profileAvatar.jpg"
+            "image": "profileAvatar.png"
         },
         {
             "id": 2,
             "name": "Bill Fedro Saputra",
             "position": "Product Manager",
             "comment": "Suspendisse potenti. Nulla facilisi. Sed euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc.",
-            "image": "/src/assets/img/profileAvatar.jpg"
+            "image": "profileAvatar.png"
         },
         {
             "id": 3,
             "name": "Arya Sakti",
             "position": "UX Designer",
-            "comment": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc.",
-            "image": "/src/assets/img/profileAvatar.jpg"
+            "comment": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc. Jangan lupa mandi ya Dani!!!",
+            "image": "profileAvatar.png"
         },
         {
-            "id": 4,
-            "name": "Arya SAkti",
-            "position": "UX Designer",
-            "comment": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc.",
-            "image": "/src/assets/img/profileAvatar.jpg"
+            "id": 23,
+            "name": "Khazanatul Isror",
+            "position": "Software Engineer",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nunc nec nisl aliquam ultrices. Nullam euismod, nunc in efficitur aliquet, nisl nunc tincidunt nunc, id lacinia mauris nunc id nunc.",
+            "image": "profileAvatar.png"
         }
     ]
 }
