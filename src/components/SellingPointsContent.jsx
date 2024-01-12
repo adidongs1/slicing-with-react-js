@@ -1,9 +1,9 @@
-import panahKanan from '../assets/arrowright.svg';
+import panahKanan from '../assets/icon/arrowright.svg';
 
 function SellingPointsContent({ imageSrc, title, reverse, children }) {
     return (
         <>
-            <div className={`flex flex-wrap ${reverse} `}>
+            <div className={`max-w-[80rem] flex flex-wrap ${reverse} `}>
 
                 <div className="md:w-1/2 px-4 w-full py-3">
                     <img
@@ -14,7 +14,7 @@ function SellingPointsContent({ imageSrc, title, reverse, children }) {
                 </div>
                 <div className="md:w-1/2 px-4 w-full py-3 flex flex-col justify-center items-start gap-2">
                     <h3 className="font-semibold text-4xl">{title}</h3>
-                    <p className="py-3 w-[29.5rem]">
+                    <p className="py-3 sm:w-[29.5rem]">
                         {children}
                     </p>
                     <button
