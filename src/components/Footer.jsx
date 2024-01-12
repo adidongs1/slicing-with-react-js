@@ -21,7 +21,7 @@ function Footer() {
                     </nav>
 
 
-                    <nav className=" flex gap-4 justify-self-end">
+                    <nav className="flex gap-4 justify-self-end">
                         <a href="/"><img src={FacebookLogo} alt="facebook" /></a>
                         <a href="/"><img src={TwitterLogo} alt="twitter" /></a>
                     </nav>
