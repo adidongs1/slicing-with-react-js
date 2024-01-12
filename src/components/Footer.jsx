@@ -13,7 +13,7 @@ function Footer() {
                         <img src={Logo} alt="" />
                     </aside>
 
-                    <nav className="flex gap-3 text-base font-medium justify-self-center">
+                    <nav className="hidden sm:flex gap-3 text-base font-medium justify-self-center">
                         <NavLink to="/prices">Prices</NavLink>
                         <NavLink to="/about">About</NavLink>
                         <NavLink to="/contact">Contacts</NavLink>
@@ -30,7 +30,7 @@ function Footer() {
 
             <footer className="footer footer-center px-4 pb-4 bg-white">
                 <aside >
-                    <p className='text-center text-base-300 ml-24'> Copyright © 2024 Adi Arifin. All rights reserved.</p>
+                    <p className='text-center text-base-300 sm:ml-24'> Copyright © 2024 Adi Arifin. All rights reserved.</p>
                 </aside>
             </footer>
 
