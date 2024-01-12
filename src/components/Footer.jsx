@@ -1,6 +1,6 @@
-import Logo from '../assets/logo.svg';
-import TwitterLogo from '../assets/twitter.svg';
-import FacebookLogo from '../assets/facebook.svg';
+import Logo from '../assets/icon/logo.svg';
+import TwitterLogo from '../assets/icon/twitter.svg';
+import FacebookLogo from '../assets/icon/facebook.svg';
 
 import { NavLink } from 'react-router-dom';
 
