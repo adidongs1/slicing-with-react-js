@@ -44,7 +44,7 @@ Get the local address link
 
 ## Overview
 
-![nuverse](https://nuverse.vercel.app/)
+[Nuverse](https://nuverse.vercel.app/)
 
 
 
